@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jason Mwangi | Portfolio</title>
+    <style>
+        /* this is where i styled the font type, color pattern, and the spacing of the containers and fonts */
+        body { 
+            font-family: 'Segoe UI', 'Times New Roman', Times, serif; 
+            text-align: center; 
+            margin: 0; 
+            padding: 0; 
+            background-color: white;
+            color: Indigo; 
+        }
+
+        header { 
+            background: Indigo; 
+            color: White; 
+            padding: 60px 20px; 
+        }
+
+        .container { 
+            max-width: 550px; 
+            margin: 30px auto; 
+            padding: 20px; 
+        }
+
+        .about-me { 
+            font-size: 1.1em; 
+            margin-bottom: 20px; 
+            color: DarkSlateGray; 
+            line-height: 1.8;
+        }
+
+        .card { 
+            background: White;
+            border: 2px solid BlueViolet; 
+            border-radius: 15px;
+            margin: 15px 0; 
+            padding: 18px; 
+            transition: 0.4s;
+            cursor: pointer;
+            display: block;
+            text-decoration: none;
+            color: Indigo;
+            font-weight: bold;
+        }
+
+        /* This is where i made the hover effect */
+        .card:hover{ 
+            box-shadow: 0 10px 20px MediumPurple; 
+            transform: translateY(-5px);
+            background: Lavender;
+            border-color: DarkViolet;
+        }
+
+        .footer-text { 
+            font-size: 0.9em; 
+            color: MediumPurple; 
+            margin-top: 50px; 
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>JASON MWANGI</h1>
+        <p>Software Engineer on the path to greatness</p>
+    </header>
+
+    <div class="container">
+        <div class="about-me">
+            <p>I'm <strong>Jason</strong>, a 19-year-old student from Kenya currently learning software engineering.</p>
+            <p>I'm studying at <strong>Moringa School</strong>. Even when things get tough, I'm sticking with it—this is one of those situations where you've just gotta <em>trust the process</em>.</p>
+        </div>
+
+        <!-- this is my Phone number -->
+        <div class="card">
+            📞 Phone: 0119523095
+        </div>
+
+        <!-- this is my Instagram handle-->
+        <a href="https://instagram.com" target="_blank" class="card">
+            📸 Instagram: @jasonhatespeople
+        </a>
+
+        <!-- this is my Email -->
+        <a href="mailto:jason.jace.itadori@gmail.com" class="card">
+            ✉️ Email: jason.jace.itadori@gmail.com
+        </a>
+
+        <p class="footer-text">📍 Nairobi, Kenya •</p>
+    </div>
+
+</body>
+</html>
